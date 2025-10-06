@@ -1,9 +1,9 @@
 [build]
 comand = "ng build --configuration-production"
-publish = "dist/air-guardian/browser"
+publish = "dist\air-guardian\browser"
 
 
 [[redirect]]
 from =  "/*"
-to = "/index.html "
+to = "\index.html "
 status =  200
