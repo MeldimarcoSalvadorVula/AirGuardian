@@ -1,0 +1,46 @@
+.card{
+  background: linear-gradient(105deg, #F59E0B 0%, #D97706 100%);
+  width: 100%;
+  color: #FFF;
+  font-size: 14px;
+  border: 1px solid #262626;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.10), 0 1px 2px -1px rgba(0, 0, 0, 0.10);
+  padding: 33.6px 32px;
+  border-radius: 14px;
+}
+
+.quality{
+  display: flex;
+  justify-content: space-between;
+}
+
+.quality h3{
+font-weight: 500;
+line-height: 20px;
+}
+
+
+.value{
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+margin-bottom:24.6px;
+}
+
+.level{
+font-weight: 400;
+line-height: 20px
+
+}
+
+.primary p {
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+opacity: 0.75;
+}
+
+.primary span{
+  font-weight: 600;
+line-height: 20px
+}

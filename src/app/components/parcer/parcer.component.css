@@ -1,0 +1,27 @@
+.parcer{
+   border-radius: 14px;
+border: 1px solid #262626;
+background: #0A0A0A;
+box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.10), 0 1px 2px -1px rgba(0, 0, 0, 0.10);
+padding: 25px;
+}
+
+.parcer p {
+  color: #A1A1A1;
+font-size: 14px;
+font-weight: 400;
+line-height: 22.75px; /* 162.5% */
+}
+
+.parcer-title span{
+  color: #FAFAFA;
+font-size: 18px;
+font-weight: 600;
+line-height: 28px; /* 155.556% */
+}
+
+.parcer-title{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}

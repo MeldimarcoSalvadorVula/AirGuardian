@@ -1,0 +1,9 @@
+[build]
+comand = "ng build --configuration-production"
+publish = "dist/AirGuardian/browser"
+
+
+[[redirect]]
+from =  "/*"
+to = "/index.html "
+status =  200

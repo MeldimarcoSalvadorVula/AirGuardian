@@ -1,0 +1,86 @@
+section{
+  width: 80%;
+  margin: 0px 112.6px;
+}
+
+.cards{
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 32px 0px;
+
+}
+
+app-card{
+  width: 30%;
+}
+
+app-historical-trends{
+  margin-top: 320px;
+}
+
+input{
+  all: unset;
+  color: #A1A1A1;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.search{
+  display: flex;
+  gap: 8px;
+  padding: 32px;
+
+}
+
+.search-container{
+  display: flex;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid #262626;
+  background: rgba(38, 38, 38, 0.30);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 1px 12.6px;
+
+
+
+}
+
+
+.search-container img{
+  width: 16px;
+  height: 16px;
+
+}
+
+.search button{
+  border: none;
+  border-radius: 8px;
+background: #FAFAFA;
+box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+padding: 9.6px 15.623px 9.6px 16px;
+height: 36px;
+color: #171717;
+text-align: center;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+
+}
+
+
+
+.alerts h3{
+  color: #FAFAFA;
+font-size: 20px;
+font-weight: 700;
+line-height: 28px; /* 140% */
+}

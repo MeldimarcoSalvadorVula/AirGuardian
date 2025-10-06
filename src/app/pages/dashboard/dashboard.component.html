@@ -1,0 +1,46 @@
+<section class="dashboard">
+
+  <div class="city">
+    <img src="assets/location.svg" alt="">
+    <span>{{location}}</span>
+  </div>
+
+  <div class="search">
+    <div class="search-container">
+      <img src="assets/lupa.svg" alt="">
+      <input type="text" placeholder="Pesquisar localização">
+    </div>
+
+    <button>
+      Procurar
+    </button>
+
+  </div>
+
+  <app-information-today></app-information-today>
+
+ <div class="cards">
+  <app-card compost="PM2.5" percentagem="12.5 µg/m³" yesterday="8% from yesterday"></app-card>
+  <app-card compost="Ozone (O₃)" percentagem="45 ppb" yesterday="3% from yesterday"></app-card>
+  <app-card compost="Humidity" percentagem="68 %" yesterday="Comfortable range"></app-card>
+
+
+ </div>
+
+<app-hourly-trend></app-hourly-trend>
+
+<app-historical-trends></app-historical-trends>
+
+
+
+
+ <div class="alerts">
+  <h3>Alertas recentes</h3>
+  <app-card></app-card>
+  <app-card></app-card>
+ </div>
+
+
+
+
+</section>

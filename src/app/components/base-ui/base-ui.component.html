@@ -1,0 +1,58 @@
+<header >
+    <div class="logo-container flex">
+        <div class="logo">
+          <img src="assets/icon.svg" alt="loog">
+        </div>
+
+        <h1>AirGuardian</h1>
+
+    </div>
+
+    <nav class="flex">
+      <li routerLinkActive="active" class="flex">
+        <a routerLink="/dashboard" class="flex" routerLinkActive="active">
+          <img src="assets/navbar_moom.svg" alt="">
+          <span>Painel</span>
+        </a >
+      </li>
+      <li class="flex"routerLink="active">
+        <a routerLink="/map"class="flex" >
+           <img src="assets/map.svg" alt="">
+          <span>Mapa</span>
+        </a>
+      </li>
+      <li class="flex" routerLinkActive="active" >
+        <a routerLink="/previsions" class="flex">
+           <img src="assets/previsions_icon.svg" alt="">
+          <span>Previsões</span>
+        </a>
+      </li>
+      <li class="flex"  routerLinkActive="active">
+        <a class="flex" routerLink="/alerts">
+           <img src="assets/alert_icon.svg" alt="">
+          <span>Alertas</span>
+        </a>
+      </li>
+      <!--<li class="flex" routerLinkActive="active">
+        <a class="flex" routerLink="/perfil">
+           <img src="assets/user_icon.svg" alt="">
+          <span>Perfil</span>
+        </a>
+      </li>-->
+
+     <li class="flex" routerLinkActive="active">
+        <a class="flex" routerLink="/about">
+           <img src="assets/about.svg" alt="">
+          <span>Sobre</span>
+        </a>
+      </li>
+    </nav>
+
+    <button>
+      <img src="assets/moon_light.svg" alt="">
+    </button>
+</header>
+
+<main>
+  <ng-content></ng-content>
+</main>

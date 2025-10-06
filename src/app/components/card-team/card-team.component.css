@@ -1,0 +1,46 @@
+.card-team{
+  width: 286px;
+  border-radius: 14px;
+  border: 1px solid #262626;
+  background: #0A0A0A;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.10), 0 1px 2px -1px rgba(0, 0, 0, 0.10);
+
+
+}
+
+img{
+  width: 284.4px;
+height: 284.4px;
+}
+
+.information{
+  padding-left:24.8px ;
+  padding-bottom:51.1px ;
+  padding-right:63.73px;
+  padding-top: 27.2px;
+}
+
+.card-team h2{
+  color: #FAFAFA;
+font-size: 18px;
+font-weight: 600;
+line-height: 28px; /* 155.556% */
+}
+
+.card-team span{
+color: #FAFAFA;
+font-size: 12px;
+font-weight: 500;
+line-height: 16px;
+border-radius: 8px;
+background: #262626;
+padding: 2.8px 8.326px 3.59px 8.8px;
+
+}
+
+.card-team p{
+color: #A1A1A1;
+font-size: 14px;
+font-weight: 400;
+line-height: 22.75px; /* 162.5% */
+}

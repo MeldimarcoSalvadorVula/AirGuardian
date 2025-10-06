@@ -1,0 +1,58 @@
+<section class="map">
+  <div class="info">
+
+    <div class="">
+      <h3>Mapa da Qualidade do Ar</h3>
+    <p>Explore dados de qualidade do ar em
+      tempo real do NASA TEMPO e OpenAQ</p>
+    </div>
+
+  <label for="">Tipo de poluente</label>
+  <div class="poluent-wrapper">
+    <span></span>
+    <button><img src="assests/down.svg" alt=""></button>
+  </div>
+
+  <div class="poluents">
+    @for (poluent of poluents; track $index) {
+      <span>poluent</span>
+    }
+  </div>
+
+  <div class="date">
+
+  </div>
+
+  <div class="levels">
+    <h5>Lenda do AQI</h5>
+    <nav>
+      <li>
+        <img src="assets/ball_green.svg" alt="">
+        <span>Bom (0-50)</span>
+      </li>
+      <li>
+         <img src="assets/ball_yellow.svg" alt="">
+        <span>Moderado (51-100)</span>
+      </li>
+      <li>
+         <img src="assets/ball_brown.svg" alt="">
+        <span>Não saudável para pessoas
+          sensíveis (101-150)</span>
+      </li>
+      <li>
+         <img src="assets/ball_red.svg" alt="">
+        <span>Insalubre (151-200)</span>
+      </li>
+      <li>
+         <img src="assets/super_ball_brown.svg" alt="">
+        <span>Perigoso (201+)</span>
+      </li>
+    </nav>
+  </div>
+
+  </div>
+
+  <app-mapa [ngStyle]="myStyles" ></app-mapa>
+
+
+</section>

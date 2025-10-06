@@ -1,0 +1,54 @@
+<div class="chart-container">
+      <div class="header-flex">
+        <div class="header-left">
+          <div class="tendicies">
+            <img src="assets/calendar.svg" alt="">
+            <h2>Tendências Históricas</h2>
+          </div>
+          <p>Tendências de qualidade do ar em São Francisco, CA</p>
+        </div>
+        <div class="period-selector">
+          <button
+            [class.active]="selectedPeriod === '7'"
+            (click)="selectPeriod('7')">7 Days</button>
+          <button
+            [class.active]="selectedPeriod === '30'"
+            (click)="selectPeriod('30')">30 Days</button>
+          <button
+            [class.active]="selectedPeriod === '90'"
+            (click)="selectPeriod('90')">90 Days</button>
+        </div>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-card">
+          <p class="stat-label"> IQA médio</p>
+          <p class="stat-value">{{stats.average}}</p>
+        </div>
+        <div class="stat-card">
+          <p class="stat-label">Pico de  IQA</p>
+          <p class="stat-value orange">{{stats.peak}}</p>
+        </div>
+        <div class="stat-card">
+          <p class="stat-label">Menor IQA</p>
+          <p class="stat-value green">{{stats.lowest}}</p>
+        </div>
+        <div class="stat-card">
+          <p class="stat-label">Tendência</p>
+          <p class="stat-value green">
+              <img src="assets/previsions.svg" alt="">
+               <span class="trend-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 17 16" fill="none">
+                <path d="M2.30859 12.0004L6.80859 7.5004L9.67926 10.3711C10.5092 8.73517 11.8783 7.43581 13.5553 6.6924L15.3819 5.87906M15.3819 5.87906L11.4219 4.3584M15.3819 5.87906L13.8619 9.83907" stroke="#A1A1A1" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span> {{stats.trend}}%
+
+          </p>
+
+        </div>
+      </div>
+
+      <div class="chart-wrapper">
+        <canvas #chartCanvas></canvas>
+      </div>
+    </div>

@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root{
+  --bg-color-dark:#0A0A0A;
+  --bg-color-light: #FFFFFF;
+  --color-section-green-ligth-mode: linear-gradient(135deg, rgba(43, 127, 255, 0.10) 0%, rgba(0, 201, 80, 0.10) 100%);
+  --color-section-green-dark-mode: linear-gradient(135deg, rgba(43, 127, 255, 0.10) 0%, rgba(0, 201, 80, 0.10) 100%);
+  --color-bg-footer-ligth-mode: rgba(245, 245, 245, 0.50);
+  --color-bg-footer-dark-mode: rgba(38, 38, 38, 0.50);
+  --color-ambar-light:linear-gradient(109deg, #F59E0B 0%, #D97706 100%);;
+  --color-ambar-dark: #FF6900;
+  --color-green: #00C950;
+  --color-grey-navbar-select: rgba(250, 250, 250, 0.10);
+  --color-blue: #2B7FFF;
+  --color-black-primary: #171717;
+  --color-white-primary: #FAFAFA;
+  --color-red-primary: #E7000B;
+  --color-red-secundary: #FB2C36;
+  --color-black-secundary: #262626;
+  --color-input-dark-mode: rgba(38, 38, 38, 0.30);;
+  --color-input-ligth-mode: rgba(38, 38, 38, 0.30);;
+  --color-grey-font-primary: #A1A1A1;
+  --color-grey-font-secundary: #737373;
+  --color-green-grafiq: #10B981;
+  --color-blue-grafiq: #3B82F6;
+
+
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+  background-color: #0A0A0A;
+ 
+}
