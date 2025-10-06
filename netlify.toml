@@ -1,6 +1,6 @@
 [build]
-comand = "ng build --configuration-production"
-publish = "dist\air-guardian\browser"
+comand = "ng build --configuration production"
+publish = "dist/air-guardianbrowser"
 
 
 [[redirect]]
